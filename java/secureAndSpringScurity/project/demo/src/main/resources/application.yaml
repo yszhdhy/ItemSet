@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: demo
+
+  datasource:
+    password: '123456'
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ceshi?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+  mvc:
+    format:
+      date: yyyy-MM-dd
+      date-time: yyyy-MM-dd HH:mm:ss
+
+server:
+  port: 8840 # HTTP端口
+  ssl:
+    enabled: true
+    port: 8843 # HTTPS端口
+    key-store: "src/main/resources/mykeystore.p12"
+    key-store-password: xu123456
+    keyStoreType: PKCS12
+    keyAlias: mydomain
+
