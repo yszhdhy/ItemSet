@@ -1,0 +1,458 @@
+10-May-2024 10:33:34.806 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.89
+10-May-2024 10:33:34.810 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        May 3 2024 20:22:11 UTC
+10-May-2024 10:33:34.810 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.89.0
+10-May-2024 10:33:34.811 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 11
+10-May-2024 10:33:34.811 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+10-May-2024 10:33:34.811 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+10-May-2024 10:33:34.811 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     E:\environment\java\jdk1.8\jdk1.8\jre
+10-May-2024 10:33:34.811 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_371-b11
+10-May-2024 10:33:34.811 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+10-May-2024 10:33:34.811 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89
+10-May-2024 10:33:34.812 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89
+10-May-2024 10:33:34.842 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\conf\logging.properties
+10-May-2024 10:33:34.842 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-May-2024 10:33:34.842 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+10-May-2024 10:33:34.842 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-May-2024 10:33:34.842 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+10-May-2024 10:33:34.842 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89
+10-May-2024 10:33:34.843 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89
+10-May-2024 10:33:34.843 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\temp
+10-May-2024 10:33:34.849 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.4]加载了基于APR的Apache Tomcat本机库[1.3.0]。
+10-May-2024 10:33:34.849 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [true]。
+10-May-2024 10:33:34.849 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+10-May-2024 10:33:34.865 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 3.0.13 30 Jan 2024]
+10-May-2024 10:33:35.332 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+10-May-2024 10:33:35.362 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[773]毫秒内初始化
+10-May-2024 10:33:35.407 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+10-May-2024 10:33:35.407 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.89]
+10-May-2024 10:33:35.435 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\flowable-ui.war]
+10-May-2024 10:33:52.590 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+10-May-2024 10:34:09.034 信息 [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 10:34:09.440 信息 [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 10:34:11.051 信息 [main] liquibase.changelog.null Creating database history table with name: PUBLIC.FLW_EV_DATABASECHANGELOG
+10-May-2024 10:34:11.058 信息 [main] liquibase.changelog.null Reading from PUBLIC.FLW_EV_DATABASECHANGELOG
+10-May-2024 10:34:11.415 信息 [main] liquibase.changelog.null Table FLW_EVENT_DEPLOYMENT created
+10-May-2024 10:34:11.415 信息 [main] liquibase.changelog.null Table FLW_EVENT_RESOURCE created
+10-May-2024 10:34:11.420 信息 [main] liquibase.changelog.null Table FLW_EVENT_DEFINITION created
+10-May-2024 10:34:11.421 信息 [main] liquibase.changelog.null Index ACT_IDX_EVENT_DEF_UNIQ created
+10-May-2024 10:34:11.424 信息 [main] liquibase.changelog.null Table FLW_CHANNEL_DEFINITION created
+10-May-2024 10:34:11.427 信息 [main] liquibase.changelog.null Index ACT_IDX_CHANNEL_DEF_UNIQ created
+10-May-2024 10:34:11.427 信息 [main] liquibase.changelog.null ChangeSet org/flowable/eventregistry/db/liquibase/flowable-eventregistry-db-changelog.xml::1::flowable ran successfully in 16ms
+10-May-2024 10:34:11.451 信息 [main] liquibase.changelog.null Columns TYPE_(varchar(255)) added to FLW_CHANNEL_DEFINITION
+10-May-2024 10:34:11.461 信息 [main] liquibase.changelog.null Columns IMPLEMENTATION_(varchar(255)) added to FLW_CHANNEL_DEFINITION
+10-May-2024 10:34:11.462 信息 [main] liquibase.changelog.null ChangeSet org/flowable/eventregistry/db/liquibase/flowable-eventregistry-db-changelog.xml::2::flowable ran successfully in 16ms
+10-May-2024 10:34:11.475 信息 [main] liquibase.changelog.null Set Channel Definition type and implementation columns
+10-May-2024 10:34:11.475 信息 [main] liquibase.changelog.null ChangeSet org/flowable/eventregistry/db/liquibase/flowable-eventregistry-db-changelog.xml::3::flowable ran successfully in 11ms
+10-May-2024 10:34:11.482 信息 [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 10:34:11.657 信息 [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 10:34:11.666 信息 [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 10:34:12.079 信息 [main] liquibase.changelog.null Creating database history table with name: PUBLIC.ACT_DMN_DATABASECHANGELOG
+10-May-2024 10:34:12.082 信息 [main] liquibase.changelog.null Reading from PUBLIC.ACT_DMN_DATABASECHANGELOG
+10-May-2024 10:34:12.112 信息 [main] liquibase.changelog.null Table ACT_DMN_DEPLOYMENT created
+10-May-2024 10:34:12.114 信息 [main] liquibase.changelog.null Table ACT_DMN_DEPLOYMENT_RESOURCE created
+10-May-2024 10:34:12.115 信息 [main] liquibase.changelog.null Table ACT_DMN_DECISION_TABLE created
+10-May-2024 10:34:12.115 信息 [main] liquibase.changelog.null ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::1::activiti ran successfully in 4ms
+10-May-2024 10:34:12.118 信息 [main] liquibase.changelog.null Table ACT_DMN_HI_DECISION_EXECUTION created
+10-May-2024 10:34:12.118 信息 [main] liquibase.changelog.null ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::2::flowable ran successfully in 0ms
+10-May-2024 10:34:12.127 信息 [main] liquibase.changelog.null Columns SCOPE_TYPE_(varchar(255)) added to ACT_DMN_HI_DECISION_EXECUTION
+10-May-2024 10:34:12.127 信息 [main] liquibase.changelog.null ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::3::flowable ran successfully in 9ms
+10-May-2024 10:34:12.131 信息 [main] liquibase.changelog.null Column ACT_DMN_DECISION_TABLE.PARENT_DEPLOYMENT_ID_ dropped
+10-May-2024 10:34:12.131 信息 [main] liquibase.changelog.null ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::4::flowable ran successfully in 2ms
+10-May-2024 10:34:12.131 信息 [main] liquibase.changelog.null Index ACT_IDX_DEC_TBL_UNIQ created
+10-May-2024 10:34:12.131 信息 [main] liquibase.changelog.null ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::6::flowable ran successfully in 0ms
+10-May-2024 10:34:12.137 信息 [main] liquibase.changelog.null Index ACT_IDX_DEC_TBL_UNIQ dropped from table ACT_DMN_DECISION_TABLE
+10-May-2024 10:34:12.137 信息 [main] liquibase.changelog.null Table ACT_DMN_DECISION_TABLE renamed to ACT_DMN_DECISION
+10-May-2024 10:34:12.138 信息 [main] liquibase.changelog.null Index ACT_IDX_DMN_DEC_UNIQ created
+10-May-2024 10:34:12.138 信息 [main] liquibase.changelog.null ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::7::flowable ran successfully in 2ms
+10-May-2024 10:34:12.144 信息 [main] liquibase.changelog.null Columns DECISION_TYPE_(varchar(255)) added to ACT_DMN_DECISION
+10-May-2024 10:34:12.144 信息 [main] liquibase.changelog.null ChangeSet org/flowable/dmn/db/liquibase/flowable-dmn-db-changelog.xml::8::flowable ran successfully in 4ms
+10-May-2024 10:34:12.147 信息 [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 10:34:12.172 信息 [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 10:34:12.176 信息 [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 10:34:12.560 信息 [main] liquibase.changelog.null Creating database history table with name: PUBLIC.ACT_FO_DATABASECHANGELOG
+10-May-2024 10:34:12.565 信息 [main] liquibase.changelog.null Reading from PUBLIC.ACT_FO_DATABASECHANGELOG
+10-May-2024 10:34:12.578 信息 [main] liquibase.changelog.null Table ACT_FO_FORM_DEPLOYMENT created
+10-May-2024 10:34:12.578 信息 [main] liquibase.changelog.null Table ACT_FO_FORM_RESOURCE created
+10-May-2024 10:34:12.578 信息 [main] liquibase.changelog.null Table ACT_FO_FORM_DEFINITION created
+10-May-2024 10:34:12.578 信息 [main] liquibase.changelog.null Table ACT_FO_FORM_INSTANCE created
+10-May-2024 10:34:12.578 信息 [main] liquibase.changelog.null ChangeSet org/flowable/form/db/liquibase/flowable-form-db-changelog.xml::1::activiti ran successfully in 5ms
+10-May-2024 10:34:12.592 信息 [main] liquibase.changelog.null Columns SCOPE_ID_(varchar(255)),SCOPE_TYPE_(varchar(255)),SCOPE_DEFINITION_ID_(varchar(255)) added to ACT_FO_FORM_INSTANCE
+10-May-2024 10:34:12.592 信息 [main] liquibase.changelog.null ChangeSet org/flowable/form/db/liquibase/flowable-form-db-changelog.xml::2::flowable ran successfully in 7ms
+10-May-2024 10:34:12.596 信息 [main] liquibase.changelog.null Column ACT_FO_FORM_DEFINITION.PARENT_DEPLOYMENT_ID_ dropped
+10-May-2024 10:34:12.597 信息 [main] liquibase.changelog.null ChangeSet org/flowable/form/db/liquibase/flowable-form-db-changelog.xml::3::flowable ran successfully in 5ms
+10-May-2024 10:34:12.600 信息 [main] liquibase.changelog.null Index ACT_IDX_FORM_DEF_UNIQ created
+10-May-2024 10:34:12.601 信息 [main] liquibase.changelog.null ChangeSet org/flowable/form/db/liquibase/flowable-form-db-changelog.xml::5::flowable ran successfully in 3ms
+10-May-2024 10:34:12.603 信息 [main] liquibase.changelog.null Index ACT_IDX_FORM_TASK created
+10-May-2024 10:34:12.605 信息 [main] liquibase.changelog.null Index ACT_IDX_FORM_PROC created
+10-May-2024 10:34:12.605 信息 [main] liquibase.changelog.null Index ACT_IDX_FORM_SCOPE created
+10-May-2024 10:34:12.605 信息 [main] liquibase.changelog.null ChangeSet org/flowable/form/db/liquibase/flowable-form-db-changelog.xml::6::flowable ran successfully in 3ms
+10-May-2024 10:34:12.607 信息 [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 10:34:13.518 信息 [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 10:34:13.525 信息 [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 10:34:13.863 信息 [main] liquibase.changelog.null Creating database history table with name: PUBLIC.ACT_CO_DATABASECHANGELOG
+10-May-2024 10:34:13.865 信息 [main] liquibase.changelog.null Reading from PUBLIC.ACT_CO_DATABASECHANGELOG
+10-May-2024 10:34:13.873 信息 [main] liquibase.changelog.null Table ACT_CO_CONTENT_ITEM created
+10-May-2024 10:34:13.874 信息 [main] liquibase.changelog.null Index idx_contitem_taskid created
+10-May-2024 10:34:13.875 信息 [main] liquibase.changelog.null Index idx_contitem_procid created
+10-May-2024 10:34:13.875 信息 [main] liquibase.changelog.null ChangeSet org/flowable/content/db/liquibase/flowable-content-db-changelog.xml::1::activiti ran successfully in 4ms
+10-May-2024 10:34:13.883 信息 [main] liquibase.changelog.null Columns SCOPE_ID_(varchar(255)),SCOPE_TYPE_(varchar(255)) added to ACT_CO_CONTENT_ITEM
+10-May-2024 10:34:13.884 信息 [main] liquibase.changelog.null Index idx_contitem_scope created
+10-May-2024 10:34:13.884 信息 [main] liquibase.changelog.null ChangeSet org/flowable/content/db/liquibase/flowable-content-db-changelog.xml::2::flowable ran successfully in 8ms
+10-May-2024 10:34:13.887 信息 [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 10:34:14.091 信息 [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 10:34:14.097 信息 [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 10:34:14.528 信息 [main] liquibase.changelog.null Creating database history table with name: PUBLIC.ACT_CMMN_DATABASECHANGELOG
+10-May-2024 10:34:14.530 信息 [main] liquibase.changelog.null Reading from PUBLIC.ACT_CMMN_DATABASECHANGELOG
+10-May-2024 10:34:14.607 信息 [main] liquibase.changelog.null Table ACT_CMMN_DEPLOYMENT created
+10-May-2024 10:34:14.608 信息 [main] liquibase.changelog.null Table ACT_CMMN_DEPLOYMENT_RESOURCE created
+10-May-2024 10:34:14.610 信息 [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_DEPLOYMENT_RESOURCE (DEPLOYMENT_ID_)
+10-May-2024 10:34:14.610 信息 [main] liquibase.changelog.null Index ACT_IDX_CMMN_RSRC_DPL created
+10-May-2024 10:34:14.616 信息 [main] liquibase.changelog.null Table ACT_CMMN_CASEDEF created
+10-May-2024 10:34:14.616 信息 [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_CASEDEF (DEPLOYMENT_ID_)
+10-May-2024 10:34:14.616 信息 [main] liquibase.changelog.null Index ACT_IDX_CASE_DEF_DPLY created
+10-May-2024 10:34:14.616 信息 [main] liquibase.changelog.null Table ACT_CMMN_RU_CASE_INST created
+10-May-2024 10:34:14.622 信息 [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_CASE_INST (CASE_DEF_ID_)
+10-May-2024 10:34:14.623 信息 [main] liquibase.changelog.null Index ACT_IDX_CASE_INST_CASE_DEF created
+10-May-2024 10:34:14.623 信息 [main] liquibase.changelog.null Index ACT_IDX_CASE_INST_PARENT created
+10-May-2024 10:34:14.625 信息 [main] liquibase.changelog.null Table ACT_CMMN_RU_PLAN_ITEM_INST created
+10-May-2024 10:34:14.627 信息 [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_PLAN_ITEM_INST (CASE_DEF_ID_)
+10-May-2024 10:34:14.628 信息 [main] liquibase.changelog.null Index ACT_IDX_PLAN_ITEM_CASE_DEF created
+10-May-2024 10:34:14.628 信息 [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_PLAN_ITEM_INST (CASE_INST_ID_)
+10-May-2024 10:34:14.629 信息 [main] liquibase.changelog.null Index ACT_IDX_PLAN_ITEM_CASE_INST created
+10-May-2024 10:34:14.631 信息 [main] liquibase.changelog.null Table ACT_CMMN_RU_SENTRY_PART_INST created
+10-May-2024 10:34:14.633 信息 [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_SENTRY_PART_INST (CASE_DEF_ID_)
+10-May-2024 10:34:14.633 信息 [main] liquibase.changelog.null Index ACT_IDX_SENTRY_CASE_DEF created
+10-May-2024 10:34:14.634 信息 [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_SENTRY_PART_INST (CASE_INST_ID_)
+10-May-2024 10:34:14.634 信息 [main] liquibase.changelog.null Index ACT_IDX_SENTRY_CASE_INST created
+10-May-2024 10:34:14.634 信息 [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_SENTRY_PART_INST (PLAN_ITEM_INST_ID_)
+10-May-2024 10:34:14.634 信息 [main] liquibase.changelog.null Index ACT_IDX_SENTRY_PLAN_ITEM created
+10-May-2024 10:34:14.639 信息 [main] liquibase.changelog.null Table ACT_CMMN_RU_MIL_INST created
+10-May-2024 10:34:14.641 信息 [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_MIL_INST (CASE_DEF_ID_)
+10-May-2024 10:34:14.641 信息 [main] liquibase.changelog.null Index ACT_IDX_MIL_CASE_DEF created
+10-May-2024 10:34:14.641 信息 [main] liquibase.changelog.null Foreign key constraint added to ACT_CMMN_RU_MIL_INST (CASE_INST_ID_)
+10-May-2024 10:34:14.641 信息 [main] liquibase.changelog.null Index ACT_IDX_MIL_CASE_INST created
+10-May-2024 10:34:14.641 信息 [main] liquibase.changelog.null Table ACT_CMMN_HI_CASE_INST created
+10-May-2024 10:34:14.641 信息 [main] liquibase.changelog.null Table ACT_CMMN_HI_MIL_INST created
+10-May-2024 10:34:14.641 信息 [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::1::flowable ran successfully in 44ms
+10-May-2024 10:34:14.660 信息 [main] liquibase.changelog.null Columns DGRM_RESOURCE_NAME_(varchar(4000)),HAS_START_FORM_KEY_(boolean) added to ACT_CMMN_CASEDEF
+10-May-2024 10:34:14.665 信息 [main] liquibase.changelog.null Columns GENERATED_(boolean) added to ACT_CMMN_DEPLOYMENT_RESOURCE
+10-May-2024 10:34:14.670 信息 [main] liquibase.changelog.null Columns LOCK_TIME_(datetime) added to ACT_CMMN_RU_CASE_INST
+10-May-2024 10:34:14.679 信息 [main] liquibase.changelog.null Columns ITEM_DEFINITION_ID_(varchar(255)),ITEM_DEFINITION_TYPE_(varchar(255)) added to ACT_CMMN_RU_PLAN_ITEM_INST
+10-May-2024 10:34:14.679 信息 [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::2::flowable ran successfully in 38ms
+10-May-2024 10:34:14.685 信息 [main] liquibase.changelog.null Columns IS_COMPLETEABLE_(boolean) added to ACT_CMMN_RU_PLAN_ITEM_INST
+10-May-2024 10:34:14.689 信息 [main] liquibase.changelog.null Columns IS_COMPLETEABLE_(boolean) added to ACT_CMMN_RU_CASE_INST
+10-May-2024 10:34:14.689 信息 [main] liquibase.changelog.null Index ACT_IDX_PLAN_ITEM_STAGE_INST created
+10-May-2024 10:34:14.695 信息 [main] liquibase.changelog.null Columns IS_COUNT_ENABLED_(boolean) added to ACT_CMMN_RU_PLAN_ITEM_INST
+10-May-2024 10:34:14.700 信息 [main] liquibase.changelog.null Columns VAR_COUNT_(integer) added to ACT_CMMN_RU_PLAN_ITEM_INST
+10-May-2024 10:34:14.705 信息 [main] liquibase.changelog.null Columns SENTRY_PART_INST_COUNT_(integer) added to ACT_CMMN_RU_PLAN_ITEM_INST
+10-May-2024 10:34:14.705 信息 [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::3::flowable ran successfully in 24ms
+10-May-2024 10:34:14.710 信息 [main] liquibase.changelog.null Table ACT_CMMN_HI_PLAN_ITEM_INST created
+10-May-2024 10:34:14.714 信息 [main] liquibase.changelog.null Columns TENANT_ID_(varchar(255)) added to ACT_CMMN_RU_MIL_INST
+10-May-2024 10:34:14.716 信息 [main] liquibase.changelog.null Columns TENANT_ID_(varchar(255)) added to ACT_CMMN_HI_MIL_INST
+10-May-2024 10:34:14.716 信息 [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::4::flowable ran successfully in 8ms
+10-May-2024 10:34:14.718 信息 [main] liquibase.changelog.null Index ACT_IDX_CASE_DEF_UNIQ created
+10-May-2024 10:34:14.718 信息 [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::6::flowable ran successfully in 0ms
+10-May-2024 10:34:14.720 信息 [main] liquibase.changelog.null Column ACT_CMMN_RU_PLAN_ITEM_INST.START_TIME_ renamed to CREATE_TIME_
+10-May-2024 10:34:14.720 信息 [main] liquibase.changelog.null Column ACT_CMMN_HI_PLAN_ITEM_INST.CREATED_TIME_ renamed to CREATE_TIME_
+10-May-2024 10:34:14.761 信息 [main] liquibase.changelog.null Columns LAST_AVAILABLE_TIME_(datetime(3)),LAST_ENABLED_TIME_(datetime(3)),LAST_DISABLED_TIME_(datetime(3)),LAST_STARTED_TIME_(datetime(3)),LAST_SUSPENDED_TIME_(datetime(3)),COMPLETED_TIME_(datetime(3)),OCCURRED_TIME_(datetime(3)),TERMINATED_TIME_(datetime(3)),EXIT_TIME_(datetime(3)),ENDED_TIME_(datetime(3)),ENTRY_CRITERION_ID_(varchar(255)),EXIT_CRITERION_ID_(varchar(255)) added to ACT_CMMN_RU_PLAN_ITEM_INST
+10-May-2024 10:34:14.761 信息 [main] liquibase.changelog.null Columns ENTRY_CRITERION_ID_(varchar(255)),EXIT_CRITERION_ID_(varchar(255)) added to ACT_CMMN_HI_PLAN_ITEM_INST
+10-May-2024 10:34:14.766 信息 [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::7::flowable ran successfully in 46ms
+10-May-2024 10:34:14.770 信息 [main] liquibase.changelog.null Columns SHOW_IN_OVERVIEW_(boolean) added to ACT_CMMN_HI_PLAN_ITEM_INST
+10-May-2024 10:34:14.771 信息 [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::8::flowable ran successfully in 3ms
+10-May-2024 10:34:14.773 信息 [main] liquibase.changelog.null Columns EXTRA_VALUE_(varchar(255)) added to ACT_CMMN_RU_PLAN_ITEM_INST
+10-May-2024 10:34:14.778 信息 [main] liquibase.changelog.null Columns EXTRA_VALUE_(varchar(255)) added to ACT_CMMN_HI_PLAN_ITEM_INST
+10-May-2024 10:34:14.778 信息 [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::9::flowable ran successfully in 6ms
+10-May-2024 10:34:14.783 信息 [main] liquibase.changelog.null Columns REFERENCE_ID_(varchar(255)) added to ACT_CMMN_RU_CASE_INST
+10-May-2024 10:34:14.786 信息 [main] liquibase.changelog.null Columns REFERENCE_TYPE_(varchar(255)) added to ACT_CMMN_RU_CASE_INST
+10-May-2024 10:34:14.787 信息 [main] liquibase.changelog.null Index ACT_IDX_CASE_INST_REF_ID_ created
+10-May-2024 10:34:14.789 信息 [main] liquibase.changelog.null Columns REFERENCE_ID_(varchar(255)) added to ACT_CMMN_HI_CASE_INST
+10-May-2024 10:34:14.791 信息 [main] liquibase.changelog.null Columns REFERENCE_TYPE_(varchar(255)) added to ACT_CMMN_HI_CASE_INST
+10-May-2024 10:34:14.791 信息 [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::10::flowable ran successfully in 11ms
+10-May-2024 10:34:14.797 信息 [main] liquibase.changelog.null Columns DERIVED_CASE_DEF_ID_(varchar(255)) added to ACT_CMMN_RU_PLAN_ITEM_INST
+10-May-2024 10:34:14.800 信息 [main] liquibase.changelog.null Columns DERIVED_CASE_DEF_ID_(varchar(255)) added to ACT_CMMN_HI_PLAN_ITEM_INST
+10-May-2024 10:34:14.800 信息 [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::11::flowable ran successfully in 7ms
+10-May-2024 10:34:14.807 信息 [main] liquibase.changelog.null Columns LOCK_OWNER_(varchar(255)) added to ACT_CMMN_RU_CASE_INST
+10-May-2024 10:34:14.808 信息 [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::12::flowable ran successfully in 5ms
+10-May-2024 10:34:14.813 信息 [main] liquibase.changelog.null Columns LAST_UNAVAILABLE_TIME_(datetime(3)) added to ACT_CMMN_RU_PLAN_ITEM_INST
+10-May-2024 10:34:14.815 信息 [main] liquibase.changelog.null Columns LAST_UNAVAILABLE_TIME_(datetime(3)) added to ACT_CMMN_HI_PLAN_ITEM_INST
+10-May-2024 10:34:14.815 信息 [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::13::flowable ran successfully in 6ms
+10-May-2024 10:34:14.825 信息 [main] liquibase.changelog.null Columns LAST_REACTIVATION_TIME_(datetime(3)),LAST_REACTIVATION_USER_ID_(varchar(255)) added to ACT_CMMN_RU_CASE_INST
+10-May-2024 10:34:14.831 信息 [main] liquibase.changelog.null Columns LAST_REACTIVATION_TIME_(datetime(3)),LAST_REACTIVATION_USER_ID_(varchar(255)) added to ACT_CMMN_HI_CASE_INST
+10-May-2024 10:34:14.831 信息 [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::14::flowable ran successfully in 13ms
+10-May-2024 10:34:14.834 信息 [main] liquibase.changelog.null Columns BUSINESS_STATUS_(varchar(255)) added to ACT_CMMN_RU_CASE_INST
+10-May-2024 10:34:14.841 信息 [main] liquibase.changelog.null Columns BUSINESS_STATUS_(varchar(255)) added to ACT_CMMN_HI_CASE_INST
+10-May-2024 10:34:14.841 信息 [main] liquibase.changelog.null ChangeSet org/flowable/cmmn/db/liquibase/flowable-cmmn-db-changelog.xml::16::flowable ran successfully in 8ms
+10-May-2024 10:34:14.844 信息 [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 10:34:14.863 信息 [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 10:34:14.869 信息 [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 10:34:15.207 信息 [main] liquibase.changelog.null Creating database history table with name: PUBLIC.ACT_APP_DATABASECHANGELOG
+10-May-2024 10:34:15.208 信息 [main] liquibase.changelog.null Reading from PUBLIC.ACT_APP_DATABASECHANGELOG
+10-May-2024 10:34:15.213 信息 [main] liquibase.changelog.null Table ACT_APP_DEPLOYMENT created
+10-May-2024 10:34:15.214 信息 [main] liquibase.changelog.null Table ACT_APP_DEPLOYMENT_RESOURCE created
+10-May-2024 10:34:15.215 信息 [main] liquibase.changelog.null Foreign key constraint added to ACT_APP_DEPLOYMENT_RESOURCE (DEPLOYMENT_ID_)
+10-May-2024 10:34:15.215 信息 [main] liquibase.changelog.null Index ACT_IDX_APP_RSRC_DPL created
+10-May-2024 10:34:15.216 信息 [main] liquibase.changelog.null Table ACT_APP_APPDEF created
+10-May-2024 10:34:15.216 信息 [main] liquibase.changelog.null Foreign key constraint added to ACT_APP_APPDEF (DEPLOYMENT_ID_)
+10-May-2024 10:34:15.216 信息 [main] liquibase.changelog.null Index ACT_IDX_APP_DEF_DPLY created
+10-May-2024 10:34:15.216 信息 [main] liquibase.changelog.null ChangeSet org/flowable/app/db/liquibase/flowable-app-db-changelog.xml::1::flowable ran successfully in 4ms
+10-May-2024 10:34:15.216 信息 [main] liquibase.changelog.null Index ACT_IDX_APP_DEF_UNIQ created
+10-May-2024 10:34:15.216 信息 [main] liquibase.changelog.null ChangeSet org/flowable/app/db/liquibase/flowable-app-db-changelog.xml::3::flowable ran successfully in 0ms
+10-May-2024 10:34:15.221 信息 [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 10:34:17.609 信息 [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 10:34:17.615 信息 [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 10:34:18.007 信息 [main] liquibase.changelog.null Creating database history table with name: PUBLIC.ACT_ADM_DATABASECHANGELOG
+10-May-2024 10:34:18.009 信息 [main] liquibase.changelog.null Reading from PUBLIC.ACT_ADM_DATABASECHANGELOG
+10-May-2024 10:34:18.012 信息 [main] liquibase.changelog.null Table ACT_ADM_SERVER_CONFIG created
+10-May-2024 10:34:18.012 信息 [main] liquibase.changelog.null ChangeSet META-INF/liquibase/flowable-admin-app-db-changelog.xml::1::flowable ran successfully in 1ms
+10-May-2024 10:34:18.014 信息 [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 10:34:18.429 信息 [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 10:34:18.433 信息 [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 10:34:18.786 信息 [main] liquibase.changelog.null Creating database history table with name: PUBLIC.ACT_DE_DATABASECHANGELOG
+10-May-2024 10:34:18.788 信息 [main] liquibase.changelog.null Reading from PUBLIC.ACT_DE_DATABASECHANGELOG
+10-May-2024 10:34:18.795 信息 [main] liquibase.changelog.null Table ACT_DE_MODEL created
+10-May-2024 10:34:18.795 信息 [main] liquibase.changelog.null Index idx_proc_mod_created created
+10-May-2024 10:34:18.797 信息 [main] liquibase.changelog.null Table ACT_DE_MODEL_HISTORY created
+10-May-2024 10:34:18.797 信息 [main] liquibase.changelog.null Index idx_proc_mod_history_proc created
+10-May-2024 10:34:18.797 信息 [main] liquibase.changelog.null Table ACT_DE_MODEL_RELATION created
+10-May-2024 10:34:18.797 信息 [main] liquibase.changelog.null Foreign key constraint added to ACT_DE_MODEL_RELATION (parent_model_id)
+10-May-2024 10:34:18.797 信息 [main] liquibase.changelog.null Foreign key constraint added to ACT_DE_MODEL_RELATION (model_id)
+10-May-2024 10:34:18.797 信息 [main] liquibase.changelog.null ChangeSet META-INF/liquibase/flowable-modeler-app-db-changelog.xml::1::flowable ran successfully in 4ms
+10-May-2024 10:34:18.804 信息 [main] liquibase.changelog.null Columns tenant_id(varchar(255)) added to ACT_DE_MODEL
+10-May-2024 10:34:18.805 信息 [main] liquibase.changelog.null Columns tenant_id(varchar(255)) added to ACT_DE_MODEL_HISTORY
+10-May-2024 10:34:18.806 信息 [main] liquibase.changelog.null ChangeSet META-INF/liquibase/flowable-modeler-app-db-changelog.xml::3::flowable ran successfully in 9ms
+10-May-2024 10:34:18.807 信息 [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 10:34:21.536 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\flowable-ui.war]的部署已在[46,101]ms内完成
+10-May-2024 10:34:21.542 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\docs]
+10-May-2024 10:34:21.571 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\docs]的部署已在[28]毫秒内完成
+10-May-2024 10:34:21.571 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\examples]
+10-May-2024 10:34:21.851 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\examples]的部署已在[280]毫秒内完成
+10-May-2024 10:34:21.852 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\host-manager]
+10-May-2024 10:34:21.881 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\host-manager]的部署已在[29]毫秒内完成
+10-May-2024 10:34:21.881 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\manager]
+10-May-2024 10:34:21.912 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\manager]的部署已在[31]毫秒内完成
+10-May-2024 10:34:21.913 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\ROOT]
+10-May-2024 10:34:22.489 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\ROOT]的部署已在[576]毫秒内完成
+10-May-2024 10:34:22.512 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+10-May-2024 10:34:22.543 信息 [main] org.apache.catalina.startup.Catalina.start [47180]毫秒后服务器启动
+10-May-2024 10:36:52.752 信息 [Thread-10] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+10-May-2024 10:36:53.473 信息 [Thread-10] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+10-May-2024 10:36:53.505 警告 [Thread-10] liquibase.database.null Failed to restore the auto commit to true
+10-May-2024 10:36:53.506 警告 [Thread-10] liquibase.database.null Failed to restore the auto commit to true
+10-May-2024 10:36:53.674 警告 [Thread-10] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[flowable-ui]似乎启动了一个名为[H2 File Lock Watchdog C:/Users/ACER/flowable-db/engine-db.lock.db]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.lang.Thread.sleep(Native Method)
+ org.h2.store.FileLock.run(FileLock.java:485)
+ java.lang.Thread.run(Thread.java:750)]
+10-May-2024 10:36:53.674 警告 [Thread-10] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[flowable-ui]似乎启动了一个名为[H2 TCP Server (tcp://172.18.1.88:9093)]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.net.DualStackPlainSocketImpl.accept0(Native Method)
+ java.net.DualStackPlainSocketImpl.socketAccept(DualStackPlainSocketImpl.java:127)
+ java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:535)
+ java.net.PlainSocketImpl.accept(PlainSocketImpl.java:189)
+ java.net.ServerSocket.implAccept(ServerSocket.java:545)
+ java.net.ServerSocket.accept(ServerSocket.java:513)
+ org.h2.server.TcpServer.listen(TcpServer.java:263)
+ org.h2.tools.Server.run(Server.java:610)
+ java.lang.Thread.run(Thread.java:750)]
+10-May-2024 10:36:53.679 警告 [Thread-10] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[flowable-ui]似乎启动了一个名为[MVStore background writer nio:C:/Users/ACER/flowable-db/engine-db.mv.db]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.lang.Object.wait(Native Method)
+ org.h2.mvstore.MVStore$BackgroundWriterThread.run(MVStore.java:3283)]
+10-May-2024 10:36:53.679 严重 [Thread-10] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks web应用程序[flowable-ui]创建了一个ThreadLocal，其键类型为[java.lang.ThreadLocal]（值为[java.lang.ThreadLocal@391a26b1]），值类型为[org.springframework.security.core.context.SecurityContextImpl]（值为[SecurityContextImpl [Null authentication]），但在停止web应用程序时未能将其删除。线程将随着时间的推移而更新，以尝试避免可能的内存泄漏
+10-May-2024 10:36:53.710 信息 [Thread-10] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+10-May-2024 10:36:53.716 信息 [Thread-10] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+10-May-2024 11:42:10.125 严重 [main] org.apache.catalina.startup.Catalina.stopServer 无法联系[localhost:8005]（基端口[8005]和偏移量[0]）。Tomcat可能不在运行。
+10-May-2024 13:09:47.229 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Server.服务器版本: Apache Tomcat/9.0.89
+10-May-2024 13:09:47.235 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器构建:        May 3 2024 20:22:11 UTC
+10-May-2024 13:09:47.236 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 服务器版本号:      9.0.89.0
+10-May-2024 13:09:47.236 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 操作系统名称:      Windows 11
+10-May-2024 13:09:47.236 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log OS.版本:           10.0
+10-May-2024 13:09:47.236 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 架构:              amd64
+10-May-2024 13:09:47.236 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java 环境变量:     E:\environment\java\jdk1.8\jdk1.8\jre
+10-May-2024 13:09:47.236 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log Java虚拟机版本:    1.8.0_371-b11
+10-May-2024 13:09:47.238 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.供应商:        Oracle Corporation
+10-May-2024 13:09:47.238 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89
+10-May-2024 13:09:47.238 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89
+10-May-2024 13:09:47.241 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.config.file=E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\conf\logging.properties
+10-May-2024 13:09:47.242 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-May-2024 13:09:47.242 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djdk.tls.ephemeralDHKeySize=2048
+10-May-2024 13:09:47.242 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-May-2024 13:09:47.243 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dignore.endorsed.dirs=
+10-May-2024 13:09:47.243 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.base=E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89
+10-May-2024 13:09:47.243 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Dcatalina.home=E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89
+10-May-2024 13:09:47.243 信息 [main] org.apache.catalina.startup.VersionLoggerListener.log 命令行参数：       -Djava.io.tmpdir=E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\temp
+10-May-2024 13:09:47.250 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent 使用APR版本[1.7.4]加载了基于APR的Apache Tomcat本机库[1.3.0]。
+10-May-2024 13:09:47.251 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR功能：IPv6[true]、sendfile[true]、accept filters[false]、random[true]、UDS [true]。
+10-May-2024 13:09:47.251 信息 [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL配置：useAprConnector[false]，useOpenSSL[true]
+10-May-2024 13:09:47.275 信息 [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL成功初始化 [OpenSSL 3.0.13 30 Jan 2024]
+10-May-2024 13:09:47.734 信息 [main] org.apache.coyote.AbstractProtocol.init 初始化协议处理器 ["http-nio-8080"]
+10-May-2024 13:09:47.759 信息 [main] org.apache.catalina.startup.Catalina.load 服务器在[830]毫秒内初始化
+10-May-2024 13:09:47.801 信息 [main] org.apache.catalina.core.StandardService.startInternal 正在启动服务[Catalina]
+10-May-2024 13:09:47.801 信息 [main] org.apache.catalina.core.StandardEngine.startInternal 正在启动 Servlet 引擎：[Apache Tomcat/9.0.89]
+10-May-2024 13:09:47.823 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR 正在部署web应用程序存档文件[E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\flowable-ui.war]
+10-May-2024 13:09:55.939 信息 [main] org.apache.jasper.servlet.TldScanner.scanJars 至少有一个JAR被扫描用于TLD但尚未包含TLD。 为此记录器启用调试日志记录，以获取已扫描但未在其中找到TLD的完整JAR列表。 在扫描期间跳过不需要的JAR可以缩短启动时间和JSP编译时间。
+10-May-2024 13:10:16.743 信息 [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 13:10:17.202 信息 [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 13:10:20.351 信息 [main] liquibase.changelog.null Reading from PUBLIC.FLW_EV_DATABASECHANGELOG
+10-May-2024 13:10:20.595 信息 [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 13:10:20.725 信息 [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 13:10:20.729 信息 [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 13:10:21.124 信息 [main] liquibase.changelog.null Reading from PUBLIC.ACT_DMN_DATABASECHANGELOG
+10-May-2024 13:10:21.143 信息 [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 13:10:21.175 信息 [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 13:10:21.180 信息 [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 13:10:21.580 信息 [main] liquibase.changelog.null Reading from PUBLIC.ACT_FO_DATABASECHANGELOG
+10-May-2024 13:10:21.586 信息 [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 13:10:22.597 信息 [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 13:10:22.605 信息 [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 13:10:23.114 信息 [main] liquibase.changelog.null Reading from PUBLIC.ACT_CO_DATABASECHANGELOG
+10-May-2024 13:10:23.119 信息 [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 13:10:23.318 信息 [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 13:10:23.320 信息 [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 13:10:23.701 信息 [main] liquibase.changelog.null Reading from PUBLIC.ACT_CMMN_DATABASECHANGELOG
+10-May-2024 13:10:23.728 信息 [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 13:10:23.742 信息 [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 13:10:23.746 信息 [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 13:10:24.127 信息 [main] liquibase.changelog.null Reading from PUBLIC.ACT_APP_DATABASECHANGELOG
+10-May-2024 13:10:24.130 信息 [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 13:10:26.469 信息 [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 13:10:26.472 信息 [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 13:10:26.908 信息 [main] liquibase.changelog.null Reading from PUBLIC.ACT_ADM_DATABASECHANGELOG
+10-May-2024 13:10:26.911 信息 [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 13:10:27.432 信息 [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 13:10:27.435 信息 [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 13:10:27.943 信息 [main] liquibase.changelog.null Reading from PUBLIC.ACT_DE_DATABASECHANGELOG
+10-May-2024 13:10:27.950 信息 [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 13:10:29.957 信息 [main] org.apache.catalina.startup.HostConfig.deployWAR web应用程序存档文件[E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\flowable-ui.war]的部署已在[42,134]ms内完成
+10-May-2024 13:10:29.958 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\docs]
+10-May-2024 13:10:29.995 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\docs]的部署已在[37]毫秒内完成
+10-May-2024 13:10:29.996 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\examples]
+10-May-2024 13:10:31.891 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\examples]的部署已在[1,895]毫秒内完成
+10-May-2024 13:10:31.892 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\host-manager]
+10-May-2024 13:10:31.938 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\host-manager]的部署已在[47]毫秒内完成
+10-May-2024 13:10:31.938 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\manager]
+10-May-2024 13:10:31.977 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\manager]的部署已在[38]毫秒内完成
+10-May-2024 13:10:31.977 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory 把web 应用程序部署到目录 [E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\ROOT]
+10-May-2024 13:10:32.008 信息 [main] org.apache.catalina.startup.HostConfig.deployDirectory Web应用程序目录[E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\ROOT]的部署已在[31]毫秒内完成
+10-May-2024 13:10:32.018 信息 [main] org.apache.coyote.AbstractProtocol.start 开始协议处理句柄["http-nio-8080"]
+10-May-2024 13:10:32.058 信息 [main] org.apache.catalina.startup.Catalina.start [44298]毫秒后服务器启动
+10-May-2024 13:33:37.919 信息 [main] org.apache.catalina.core.StandardServer.await 通过关闭端口接收到有效的关闭命令。正在停止服务器实例。
+10-May-2024 13:33:37.927 信息 [main] org.apache.coyote.AbstractProtocol.pause 暂停ProtocolHandler["http-nio-8080"]
+10-May-2024 13:33:38.842 信息 [main] org.apache.catalina.core.StandardService.stopInternal 正在停止服务[Catalina]
+10-May-2024 13:33:38.914 警告 [main] liquibase.database.null Failed to restore the auto commit to true
+10-May-2024 13:33:38.919 警告 [main] liquibase.database.null Failed to restore the auto commit to true
+10-May-2024 13:33:39.060 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[flowable-ui]似乎启动了一个名为[H2 File Lock Watchdog C:/Users/ACER/flowable-db/engine-db.lock.db]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.lang.Thread.sleep(Native Method)
+ org.h2.store.FileLock.run(FileLock.java:485)
+ java.lang.Thread.run(Thread.java:750)]
+10-May-2024 13:33:39.064 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[flowable-ui]似乎启动了一个名为[H2 TCP Server (tcp://172.18.1.88:9093)]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.net.DualStackPlainSocketImpl.accept0(Native Method)
+ java.net.DualStackPlainSocketImpl.socketAccept(DualStackPlainSocketImpl.java:127)
+ java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:535)
+ java.net.PlainSocketImpl.accept(PlainSocketImpl.java:189)
+ java.net.ServerSocket.implAccept(ServerSocket.java:545)
+ java.net.ServerSocket.accept(ServerSocket.java:513)
+ org.h2.server.TcpServer.listen(TcpServer.java:263)
+ org.h2.tools.Server.run(Server.java:610)
+ java.lang.Thread.run(Thread.java:750)]
+10-May-2024 13:33:39.066 警告 [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads Web应用程序[flowable-ui]似乎启动了一个名为[MVStore background writer nio:C:/Users/ACER/flowable-db/engine-db.mv.db]的线程，但未能停止它。这很可能会造成内存泄漏。线程的堆栈跟踪：[
+ java.lang.Object.wait(Native Method)
+ org.h2.mvstore.MVStore$BackgroundWriterThread.run(MVStore.java:3283)]
+10-May-2024 13:33:39.071 严重 [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks web应用程序[flowable-ui]创建了一个ThreadLocal，其键类型为[java.lang.ThreadLocal]（值为[java.lang.ThreadLocal@2b2b8ac5]），值类型为[org.springframework.security.core.context.SecurityContextImpl]（值为[SecurityContextImpl [Null authentication]），但在停止web应用程序时未能将其删除。线程将随着时间的推移而更新，以尝试避免可能的内存泄漏
+10-May-2024 13:33:39.167 信息 [main] org.apache.coyote.AbstractProtocol.stop 正在停止ProtocolHandler ["http-nio-8080"]
+10-May-2024 13:33:39.192 信息 [main] org.apache.coyote.AbstractProtocol.destroy 正在摧毁协议处理器 ["http-nio-8080"]
+10-May-2024 13:34:21.090 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log Server.�������汾: Apache Tomcat/9.0.89
+10-May-2024 13:34:21.095 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ����������:        May 3 2024 20:22:11 UTC
+10-May-2024 13:34:21.096 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log �������汾��:      9.0.89.0
+10-May-2024 13:34:21.096 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log ����ϵͳ����:      Windows 11
+10-May-2024 13:34:21.096 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log OS.�汾:           10.0
+10-May-2024 13:34:21.096 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log �ܹ�:              amd64
+10-May-2024 13:34:21.097 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log Java ��������:     E:\environment\java\jdk1.8\jdk1.8\jre
+10-May-2024 13:34:21.097 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log Java������汾:    1.8.0_371-b11
+10-May-2024 13:34:21.097 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log JVM.��Ӧ��:        Oracle Corporation
+10-May-2024 13:34:21.097 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:     E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89
+10-May-2024 13:34:21.097 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:     E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89
+10-May-2024 13:34:21.100 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log �����в�����       -Djava.util.logging.config.file=E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\conf\logging.properties
+10-May-2024 13:34:21.101 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log �����в�����       -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-May-2024 13:34:21.101 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log �����в�����       -Djdk.tls.ephemeralDHKeySize=2048
+10-May-2024 13:34:21.101 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log �����в�����       -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-May-2024 13:34:21.101 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log �����в�����       -Dignore.endorsed.dirs=
+10-May-2024 13:34:21.101 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log �����в�����       -Dcatalina.base=E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89
+10-May-2024 13:34:21.102 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log �����в�����       -Dcatalina.home=E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89
+10-May-2024 13:34:21.102 ��Ϣ [main] org.apache.catalina.startup.VersionLoggerListener.log �����в�����       -Djava.io.tmpdir=E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\temp
+10-May-2024 13:34:21.108 ��Ϣ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent ʹ��APR�汾[1.7.4]�����˻���APR��Apache Tomcat������[1.3.0]��
+10-May-2024 13:34:21.108 ��Ϣ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR���ܣ�IPv6[true]��sendfile[true]��accept filters[false]��random[true]��UDS [true]��
+10-May-2024 13:34:21.108 ��Ϣ [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL���ã�useAprConnector[false]��useOpenSSL[true]
+10-May-2024 13:34:21.128 ��Ϣ [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL�ɹ���ʼ�� [OpenSSL 3.0.13 30 Jan 2024]
+10-May-2024 13:34:21.564 ��Ϣ [main] org.apache.coyote.AbstractProtocol.init ��ʼ��Э�鴦���� ["http-nio-8080"]
+10-May-2024 13:34:21.590 ��Ϣ [main] org.apache.catalina.startup.Catalina.load ��������[720]�����ڳ�ʼ��
+10-May-2024 13:34:21.642 ��Ϣ [main] org.apache.catalina.core.StandardService.startInternal ������������[Catalina]
+10-May-2024 13:34:21.643 ��Ϣ [main] org.apache.catalina.core.StandardEngine.startInternal �������� Servlet ���棺[Apache Tomcat/9.0.89]
+10-May-2024 13:34:21.664 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployWAR ���ڲ���webӦ�ó���浵�ļ�[E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\flowable-ui.war]
+10-May-2024 13:34:29.468 ��Ϣ [main] org.apache.jasper.servlet.TldScanner.scanJars ������һ��JAR��ɨ������TLD����δ����TLD�� Ϊ�˼�¼�����õ�����־��¼���Ի�ȡ��ɨ�赫δ�������ҵ�TLD������JAR�б��� ��ɨ���ڼ���������Ҫ��JAR������������ʱ���JSP����ʱ�䡣
+10-May-2024 13:34:51.551 ��Ϣ [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 13:34:51.972 ��Ϣ [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 13:34:54.037 ��Ϣ [main] liquibase.changelog.null Reading from PUBLIC.FLW_EV_DATABASECHANGELOG
+10-May-2024 13:34:54.316 ��Ϣ [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 13:34:54.410 ��Ϣ [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 13:34:54.415 ��Ϣ [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 13:34:54.965 ��Ϣ [main] liquibase.changelog.null Reading from PUBLIC.ACT_DMN_DATABASECHANGELOG
+10-May-2024 13:34:54.983 ��Ϣ [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 13:34:55.016 ��Ϣ [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 13:34:55.022 ��Ϣ [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 13:34:55.540 ��Ϣ [main] liquibase.changelog.null Reading from PUBLIC.ACT_FO_DATABASECHANGELOG
+10-May-2024 13:34:55.548 ��Ϣ [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 13:34:56.360 ��Ϣ [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 13:34:56.365 ��Ϣ [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 13:34:56.810 ��Ϣ [main] liquibase.changelog.null Reading from PUBLIC.ACT_CO_DATABASECHANGELOG
+10-May-2024 13:34:56.818 ��Ϣ [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 13:34:57.034 ��Ϣ [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 13:34:57.040 ��Ϣ [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 13:34:57.521 ��Ϣ [main] liquibase.changelog.null Reading from PUBLIC.ACT_CMMN_DATABASECHANGELOG
+10-May-2024 13:34:57.551 ��Ϣ [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 13:34:57.566 ��Ϣ [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 13:34:57.571 ��Ϣ [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 13:34:58.082 ��Ϣ [main] liquibase.changelog.null Reading from PUBLIC.ACT_APP_DATABASECHANGELOG
+10-May-2024 13:34:58.087 ��Ϣ [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 13:35:00.774 ��Ϣ [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 13:35:00.780 ��Ϣ [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 13:35:01.363 ��Ϣ [main] liquibase.changelog.null Reading from PUBLIC.ACT_ADM_DATABASECHANGELOG
+10-May-2024 13:35:01.370 ��Ϣ [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 13:35:02.622 ��Ϣ [main] liquibase.database.null Set default schema name to PUBLIC
+10-May-2024 13:35:02.632 ��Ϣ [main] liquibase.lockservice.null Successfully acquired change log lock
+10-May-2024 13:35:03.164 ��Ϣ [main] liquibase.changelog.null Reading from PUBLIC.ACT_DE_DATABASECHANGELOG
+10-May-2024 13:35:03.170 ��Ϣ [main] liquibase.lockservice.null Successfully released change log lock
+10-May-2024 13:35:05.195 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployWAR webӦ�ó���浵�ļ�[E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\flowable-ui.war]�Ĳ�������[43,532]ms�����
+10-May-2024 13:35:05.196 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory ��web Ӧ�ó�����Ŀ¼ [E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\docs]
+10-May-2024 13:35:05.235 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory WebӦ�ó���Ŀ¼[E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\docs]�Ĳ�������[39]���������
+10-May-2024 13:35:05.236 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory ��web Ӧ�ó�����Ŀ¼ [E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\examples]
+10-May-2024 13:35:05.577 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory WebӦ�ó���Ŀ¼[E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\examples]�Ĳ�������[341]���������
+10-May-2024 13:35:05.578 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory ��web Ӧ�ó�����Ŀ¼ [E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\host-manager]
+10-May-2024 13:35:09.033 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory WebӦ�ó���Ŀ¼[E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\host-manager]�Ĳ�������[3,454]���������
+10-May-2024 13:35:09.034 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory ��web Ӧ�ó�����Ŀ¼ [E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\manager]
+10-May-2024 13:35:09.230 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory WebӦ�ó���Ŀ¼[E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\manager]�Ĳ�������[195]���������
+10-May-2024 13:35:09.231 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory ��web Ӧ�ó�����Ŀ¼ [E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\ROOT]
+10-May-2024 13:35:09.277 ��Ϣ [main] org.apache.catalina.startup.HostConfig.deployDirectory WebӦ�ó���Ŀ¼[E:\project\java\FlowAble\tomcat\apache-tomcat-9.0.89-windows-x64\apache-tomcat-9.0.89\webapps\ROOT]�Ĳ�������[47]���������
+10-May-2024 13:35:09.291 ��Ϣ [main] org.apache.coyote.AbstractProtocol.start ��ʼЭ�鴦�����["http-nio-8080"]
+10-May-2024 13:35:09.346 ��Ϣ [main] org.apache.catalina.startup.Catalina.start [47754]��������������
+10-May-2024 13:49:08.672 ��Ϣ [Thread-10] org.apache.coyote.AbstractProtocol.pause ��ͣProtocolHandler["http-nio-8080"]
+10-May-2024 13:49:09.497 ��Ϣ [Thread-10] org.apache.catalina.core.StandardService.stopInternal ����ֹͣ����[Catalina]
+10-May-2024 13:49:09.849 ���� [Thread-10] liquibase.database.null Failed to restore the auto commit to true
+10-May-2024 13:49:09.855 ���� [Thread-10] liquibase.database.null Failed to restore the auto commit to true
+10-May-2024 13:49:10.322 ���� [Thread-10] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads WebӦ�ó���[flowable-ui]�ƺ�������һ����Ϊ[H2 File Lock Watchdog C:/Users/ACER/flowable-db/engine-db.lock.db]���̣߳���δ��ֹͣ������ܿ��ܻ�����ڴ�й©���̵߳Ķ�ջ���٣�[
+ java.lang.Thread.sleep(Native Method)
+ org.h2.store.FileLock.run(FileLock.java:485)
+ java.lang.Thread.run(Thread.java:750)]
+10-May-2024 13:49:10.323 ���� [Thread-10] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads WebӦ�ó���[flowable-ui]�ƺ�������һ����Ϊ[H2 TCP Server (tcp://172.18.1.88:9093)]���̣߳���δ��ֹͣ������ܿ��ܻ�����ڴ�й©���̵߳Ķ�ջ���٣�[
+ java.net.DualStackPlainSocketImpl.accept0(Native Method)
+ java.net.DualStackPlainSocketImpl.socketAccept(DualStackPlainSocketImpl.java:127)
+ java.net.AbstractPlainSocketImpl.accept(AbstractPlainSocketImpl.java:535)
+ java.net.PlainSocketImpl.accept(PlainSocketImpl.java:189)
+ java.net.ServerSocket.implAccept(ServerSocket.java:545)
+ java.net.ServerSocket.accept(ServerSocket.java:513)
+ org.h2.server.TcpServer.listen(TcpServer.java:263)
+ org.h2.tools.Server.run(Server.java:610)
+ java.lang.Thread.run(Thread.java:750)]
+10-May-2024 13:49:10.324 ���� [Thread-10] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads WebӦ�ó���[flowable-ui]�ƺ�������һ����Ϊ[MVStore background writer nio:C:/Users/ACER/flowable-db/engine-db.mv.db]���̣߳���δ��ֹͣ������ܿ��ܻ�����ڴ�й©���̵߳Ķ�ջ���٣�[
+ java.lang.Object.wait(Native Method)
+ org.h2.mvstore.MVStore$BackgroundWriterThread.run(MVStore.java:3283)]
+10-May-2024 13:49:10.327 ���� [Thread-10] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks webӦ�ó���[flowable-ui]������һ��ThreadLocal���������Ϊ[java.lang.ThreadLocal]��ֵΪ[java.lang.ThreadLocal@3b0902aa]����ֵ����Ϊ[org.springframework.security.core.context.SecurityContextImpl]��ֵΪ[SecurityContextImpl [Null authentication]��������ֹͣwebӦ�ó���ʱδ�ܽ���ɾ�����߳̽�����ʱ������ƶ����£��Գ��Ա�����ܵ��ڴ�й©
+10-May-2024 13:49:10.525 ��Ϣ [Thread-10] org.apache.coyote.AbstractProtocol.stop ����ֹͣProtocolHandler ["http-nio-8080"]
+10-May-2024 13:49:10.542 ��Ϣ [Thread-10] org.apache.coyote.AbstractProtocol.destroy ���ڴݻ�Э�鴦���� ["http-nio-8080"]
